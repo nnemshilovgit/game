@@ -22,3 +22,134 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Журналы
+журналы
+* .лог
+npm-debug.log *
+пряжа-debug.log *
+пряжа-error.log *
+lerna-debug.log *
+.pnpm-debug.log *
+
+# Диагностические отчеты (https://nodejs.org/api/report.html)
+отчет. [ 0-9 ] * . [ 0-9 ] * . [ 0-9 ] * . [ 0-9 ] * .json
+
+# Данные времени выполнения
+пиды
+* .пид
+* .сид
+* .pid.блокировка
+
+# Каталог инструментированных библиотек, сгенерированных jscoverage/JSCover
+lib-cov
+
+# Каталог покрытия, используемый такими инструментами, как istanbul
+покрытие
+* .lcov
+
+# нью-йоркское тестовое покрытие
+.nyc_output
+
+# Промежуточное хранилище Grunt (https://gruntjs.com/creating-plugins#storing-task-files)
+.хрюк
+
+# Каталог зависимостей Bower (https://bower.io/)
+Bower_components
+
+# конфигурация node-waf
+.lock-wscript
+
+# Скомпилированные бинарные дополнения (https://nodejs.org/api/addons.html)
+сборка / выпуск
+
+# Каталоги зависимостей
+узлы_модули /
+jspm_packages /
+
+# Каталог зависимостей Snowpack (https://snowpack.dev/)
+веб_модули /
+
+# Кэш TypeScript
+* .tsbuildinfo
+
+# Необязательный каталог кеша npm
+.npm
+
+# Необязательный кэш eslint
+.eslintcache
+
+# Необязательный кеш stylelint
+.stylelintcache
+
+# Кэш микропакетов
+.rpt2_cache /
+.rts2_cache_cjs /
+.rts2_cache_es /
+.rts2_cache_umd /
+
+# Необязательная история REPL
+.node_repl_history
+
+# Вывод пакета npm
+* .тгз
+
+# Файл целостности пряжи
+.пряжа-целостность
+
+# файлы переменных окружения dotenv
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# кеш пакета пакетов (https://parceljs.org/)
+.кэш
+.parcel-кэш
+
+# Результат сборки Next.js
+.следующий
+вне
+
+# Nuxt.js строит/генерирует вывод
+.nuxt
+расстояние
+
+# файлы Гэтсби
+.кэш /
+# Комментарий в публичной строке, если ваш проект использует Gatsby, а не Next.js
+# https://nextjs.org/blog/next-9-1#public-directory-support
+# публичный
+
+# вывод сборки vuepress
+.vuepress / расстояние
+
+# vuepress v2.x каталог временных файлов и кеша
+.temp
+.кэш
+
+# Кэш Docusaurus и сгенерированные файлы
+.докузавр
+
+# Бессерверные каталоги
+.без сервера /
+
+# Кэш FuseBox
+.fusebox /
+
+# Локальные файлы DynamoDB
+.dynamodb /
+
+# Файл порта TernJS
+.tern-порт
+
+# Сохраняет версии VSCode, используемые для тестирования расширений VSCode.
+.vscode-тест
+
+# пряжа v2
+пряжа / кэш
+.пряжа / отключена
+.пряжа / build-state.yml
+.пряжа / install-state.gz
+.pnp. 
